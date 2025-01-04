@@ -1,0 +1,13 @@
+"""
+EAGI Processor para Asterisk PBX
+--------------------------------
+
+Módulo para procesamiento de voz en tiempo real usando EAGI de Asterisk.
+"""
+
+__version__ = "1.0.0"
+
+from .utils import log, read_agi_env
+from .eagi_script import main
+
+__all__ = ['log', 'read_agi_env', 'main']
